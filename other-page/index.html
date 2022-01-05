@@ -21,12 +21,67 @@
     </header>    
     <button id="logout">Logout</button>
     <main>
-        <h1>You are logged in!</h1>
+        <section>
+            <h2>Welcome to the City of <span class="city-name"></span></h2>
+        </section>
+        <section class="pictures">
+            <div class="water">
+                <img class="water-img" />
+            </div>
+            <div class="skyline">
+                <img class="skyline-img" />
+            </div>
+            <div class="castle">
+                <img class="castle-img" />
+            </div>
+        </section>
+        <section class="slogan-section">
+            <h3>Slogans:</h3>
+            <div class="slogan-list">
+
+            </div>
+        </section>
+        <section class="inputs">
+            <form class="slogan-form">
+                <input name="slogan" />
+                <button>Add Slogan</button>
+            </form>
+            <form class="name-form">
+                <input name="name" />
+                <button>Change Name</button>
+            </form>
+            <div class="dropdowns">
+                <label>
+                    Waterfront 
+                    <select class="waterfront-dropdown">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </label>
+                <label>
+                    Skyline
+                    <select class="skyline-dropdown">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </label>
+                <label>
+                    Castle 
+                    <select class="castle-dropdown">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </label>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2021 Alchemy Code Lab</div>
     </footer>
-    <script type="module" src="./other-page.js"></script>
+    <script type="module" src="./city.js"></script>
 </body>
 
 </html>

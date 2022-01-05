@@ -20,6 +20,7 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+    background-image: url("../assets/north.jpg");
 }
 
 main {
@@ -28,6 +29,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    
 }
 
 section {
@@ -128,4 +130,39 @@ footer {
 
 .auth-container button {
     margin: 10px;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+}
+
+.pictures img {
+    border: solid 1px black;
+    width: 300px;
+    height: 300px;
+}
+
+h3 {
+    color:white;
+    font-size: 25px;
+}
+
+h2 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    color: white;
+    font-size: 40px;
+}
+
+label {
+    color: white;
+}
+
+button {
+    border-radius: 8px;
+    ;
 }
